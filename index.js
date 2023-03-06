@@ -1,4 +1,4 @@
-const startingminutes = 60;
+const startingminutes = window.prompt("enter the timer");
 let time = startingminutes * 60;
 
 const countdownele = document.getElementById("countdown");
